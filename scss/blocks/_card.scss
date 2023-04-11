@@ -1,0 +1,28 @@
+.card{
+    &__block{
+        background: rgba(240, 99, 184, 0.15);
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        margin-top: 150px;
+    }
+    &__title{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 130%;
+        display: flex;
+        align-items: center;
+        color: #212353;
+        max-width: 475px;
+        margin-left: 62px;
+    }
+    &__text{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 160%;
+        color: #4B5D68;
+        margin-top: 40px;
+        margin-left: 62px;
+        max-width: 474px;
+    }
+}

@@ -1,0 +1,85 @@
+.wrapper{
+    &__title{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 130%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+    &__text{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 160%;
+        color: #4B5D68;
+        max-width: 584px;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    &__item_block{
+        display: flex;
+        background-image: url("../../img/bgimg1.svg");
+        background-repeat: no-repeat;
+        background-position: 90px;
+        max-width: 540px;
+        margin-bottom: 50px;
+    }
+    &__item_title{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 130%;
+        display: flex;
+        align-items: center;
+        color: #212353;
+        margin-left: 29px;
+        margin-bottom: 20px;
+        margin-top: 49px;
+    }
+    &__item_text{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        color: #4B5D68;
+        max-width: 220px;
+        margin-left: 29px;
+        margin-bottom: 20px;
+    }
+    &__item_btn{
+        border: none;
+        cursor: pointer;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 160%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.005em;
+        background: none;
+        color: #212353;
+        margin-left: 29px;
+        padding-bottom: 33px;
+    }
+    &__item_img{
+        margin-top: 73px;
+    }
+    &__block{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 47px;
+    }
+    &__item_block:nth-child(2){
+        background-image: url('../../img/bgimg2.svg');
+        background-repeat: no-repeat;
+    }
+    &__item_block:nth-child(3){
+        background-image: url('../../img/bgimg3.svg');
+        background-repeat: no-repeat;
+    }
+    &__item_block:nth-child(4){
+        background-image: url('../../img/bgimg4.svg');
+        background-repeat: no-repeat;
+    }
+}
